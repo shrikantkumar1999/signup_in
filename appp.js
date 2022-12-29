@@ -12,7 +12,7 @@
 var firestore= firebase.firestore();
 const db= firestore.collection("hack3");
 function myFunction() {
-  location.replace("/Signin.html");
+  location.replace("/signup_in/Signin.html");
 }
 let submitButton =document.getElementById('submit');
 submitButton.addEventListener("click",(e) => {
